@@ -1,4 +1,4 @@
-function app() {
+function App() {
     const date = new Date
     const hour = date.getHours()
     const minutes = date.getMinutes()
@@ -7,4 +7,4 @@ function app() {
     return <h1> {formatedH} </h1>
 }
 
-export default MyApp
+export default App
